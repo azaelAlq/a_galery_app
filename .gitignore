@@ -1,45 +1,110 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+# ==========================
+# Flutter / Dart
+# ==========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.lock
+!pubspec.lock
 
-# IntelliJ related
+# Archivos generados de código
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# ==========================
+# Android
+# ==========================
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+android/app/upload-keystore.jks
+
+# ==========================
+# iOS
+# ==========================
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/xcshareddata/
+ios/Runner/GeneratedPluginRegistrant.*
+**/Flutter/ephemeral/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/xcuserdata/
+
+# ==========================
+# macOS / Linux / Windows desktop
+# ==========================
+macos/Flutter/ephemeral/
+macos/Pods/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# ==========================
+# Web
+# ==========================
+web/.dart_tool/
+
+# ==========================
+# IDE
+# ==========================
+.idea/
+.vscode/
 *.iml
 *.ipr
 *.iws
-.idea/
+.DS_Store
+Thumbs.db
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# ==========================
+# Firebase / Google secrets
+# ==========================
+# Configs reales de Firebase por plataforma (quedan fuera del repo público,
+# cada quien que clone corre 'flutterfire configure' con su propio proyecto)
+lib/firebase_options.dart
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
+# Cuentas de servicio / credenciales de Firebase Admin (si llegás a usar Cloud Functions o un backend)
+**/serviceAccountKey.json
+**/*-firebase-adminsdk-*.json
 
-# Symbolication related
-app.*.symbols
+# Firebase CLI cache
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
 
-# Obfuscation related
-app.*.map.json
+# ==========================
+# Variables de entorno / secretos propios
+# ==========================
+.env
+.env.*
+!.env.example
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# ==========================
+# Coverage / tests
+# ==========================
+coverage/
+test/.test_coverage.dart
+
+# ==========================
+# Otros
+# ==========================
+*.log
