@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "356707026533",
+    "project_id": "alq-galery",
+    "storage_bucket": "alq-galery.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356707026533:android:049fbdcd4eda5a2289a88c",
+        "android_client_info": {
+          "package_name": "com.example.a_galery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356707026533-g1746io8r20hklmrim49d4ic4ik70ul9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a_galery_app",
+            "certificate_hash": "c0286e29cfeac1374497fb3485e5b8ead6beb9ac"
+          }
+        },
+        {
+          "client_id": "356707026533-tctrlntt7esqsrrj6274rja2nrskve3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdzYo_ZsHxxSgb5zwGRBlWul8vw1wrP1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356707026533-tctrlntt7esqsrrj6274rja2nrskve3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "356707026533-311s6se851fbnetrfpnvh0sspc2apvur.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.aGaleryApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
